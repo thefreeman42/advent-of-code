@@ -25,7 +25,7 @@ var host = Host.CreateDefaultBuilder(args)
     {
         services
             .AddAdventOfCodeServices()
-            .AddPuzzle<_7_TreacheryOfWhales>()
+            .AddPuzzle<_10_SyntaxScoring>()
             ;
     })
     .UseConsoleLifetime()
