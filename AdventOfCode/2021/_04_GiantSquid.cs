@@ -3,12 +3,12 @@ using Microsoft.Extensions.Logging;
 
 namespace AdventOfCode._2021
 {
-    public class _4_GiantSquid : PuzzleBase
+    public class _04_GiantSquid : PuzzleBase
     {
         private int[]? _drawnNumbers;
         private List<BingoBoard>? _boards;
 
-        public _4_GiantSquid(
+        public _04_GiantSquid(
             ILogger<PuzzleBase> logger,
             IPuzzleInputSource inputSource)
             : base(logger, inputSource, 4)

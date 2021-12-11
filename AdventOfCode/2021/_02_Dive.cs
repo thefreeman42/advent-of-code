@@ -3,11 +3,11 @@ using Microsoft.Extensions.Logging;
 
 namespace AdventOfCode._2021
 {
-    public class _2_Dive : PuzzleBase
+    public class _02_Dive : PuzzleBase
     {
         private SubmarineMovement[]? _movements;
 
-        public _2_Dive(
+        public _02_Dive(
             ILogger<PuzzleBase> logger,
             IPuzzleInputSource inputSource)
             : base(logger, inputSource, 2)

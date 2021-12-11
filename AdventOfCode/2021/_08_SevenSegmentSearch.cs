@@ -4,11 +4,11 @@ using System.Text;
 
 namespace AdventOfCode._2021
 {
-    public class _8_SevenSegmentSearch : PuzzleBase
+    public class _08_SevenSegmentSearch : PuzzleBase
     {
         private DisplayState[]? _states;
 
-        public _8_SevenSegmentSearch(
+        public _08_SevenSegmentSearch(
             ILogger<PuzzleBase> logger,
             IPuzzleInputSource inputSource)
             : base(logger, inputSource, 8)

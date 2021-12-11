@@ -4,11 +4,11 @@ using System.Diagnostics.CodeAnalysis;
 
 namespace AdventOfCode._2021
 {
-    public class _5_HyrothermalVenture : PuzzleBase
+    public class _05_HyrothermalVenture : PuzzleBase
     {
         private List<VentLine>? _lines;
 
-        public _5_HyrothermalVenture(
+        public _05_HyrothermalVenture(
             ILogger<PuzzleBase> logger,
             IPuzzleInputSource inputSource
             ) : base(logger, inputSource, 5)

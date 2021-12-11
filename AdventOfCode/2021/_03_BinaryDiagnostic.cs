@@ -4,14 +4,14 @@ using System.Text;
 
 namespace AdventOfCode._2021
 {
-    public class _3_BinaryDiagnostic : PuzzleBase
+    public class _03_BinaryDiagnostic : PuzzleBase
     {
         private const char ZERO = '0';
         private const char ONE = '1';
 
         private List<BinaryNumber>? _diagnosticNumbers;
 
-        public _3_BinaryDiagnostic(
+        public _03_BinaryDiagnostic(
             ILogger<PuzzleBase> logger,
             IPuzzleInputSource inputSource)
             : base(logger, inputSource, 3)

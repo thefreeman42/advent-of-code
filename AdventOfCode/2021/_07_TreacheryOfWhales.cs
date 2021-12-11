@@ -3,13 +3,13 @@ using Microsoft.Extensions.Logging;
 
 namespace AdventOfCode._2021
 {
-    public class _7_TreacheryOfWhales : PuzzleBase
+    public class _07_TreacheryOfWhales : PuzzleBase
     {
         private int[]? _initialCrabPositions;
         private int _minimumPosition;
         private int _maximumPosition;
 
-        public _7_TreacheryOfWhales(
+        public _07_TreacheryOfWhales(
             ILogger<PuzzleBase> logger,
             IPuzzleInputSource inputSource)
             : base(logger, inputSource, 7)

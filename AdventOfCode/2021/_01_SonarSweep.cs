@@ -3,11 +3,11 @@ using Microsoft.Extensions.Logging;
 
 namespace AdventOfCode._2021
 {
-    public class _1_SonarSweep : PuzzleBase
+    public class _01_SonarSweep : PuzzleBase
     {
         private IEnumerable<int>? _measurements;
 
-        public _1_SonarSweep(
+        public _01_SonarSweep(
             ILogger<PuzzleBase> logger,
             IPuzzleInputSource inputSource)
             : base(logger, inputSource, 1)

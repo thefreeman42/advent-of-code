@@ -3,11 +3,11 @@ using Microsoft.Extensions.Logging;
 
 namespace AdventOfCode._2021
 {
-    public class _6_Lanternfish : PuzzleBase
+    public class _06_Lanternfish : PuzzleBase
     {
         private int[]? _initialLanternfish;
 
-        public _6_Lanternfish(
+        public _06_Lanternfish(
             ILogger<PuzzleBase> logger,
             IPuzzleInputSource inputSource)
             : base(logger, inputSource, 6)

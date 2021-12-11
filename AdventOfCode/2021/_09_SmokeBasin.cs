@@ -3,7 +3,7 @@ using Microsoft.Extensions.Logging;
 
 namespace AdventOfCode._2021
 {
-    public class _9_SmokeBasin : PuzzleBase
+    public class _09_SmokeBasin : PuzzleBase
     {
         private int[][]? _grid;
         private int _rowCount;
@@ -11,7 +11,7 @@ namespace AdventOfCode._2021
         private int _lastRowIndex;
         private int _lastColIndex;
 
-        public _9_SmokeBasin(
+        public _09_SmokeBasin(
             ILogger<PuzzleBase> logger,
             IPuzzleInputSource inputSource)
             : base(logger, inputSource, 9)
